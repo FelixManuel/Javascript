@@ -1,2 +1,7 @@
 # Descripcion
-El código que aquí se presenta pretende ayudar a crear ventanas de alerta utilizando para ello la librería estandar **sweetalert2.min** y que podeis encontrar y profundizar en [SweetAlert 2](https://sweetalert2.github.io)
+El código que aquí se presenta pretende ayudar a crear ventanas de alerta utilizando para ello la librería estandar **sweetalert2.min** y que podeis encontrar y profundizar en [SweetAlert 2](https://sweetalert2.github.io).
+
+# Primeros Pasos
+1. Tienes que importar estos dos ficheros a tu proyecto:
+> * sweetalert2.min. Librería estandar sobre la que nos vamos a apoyar.
+> * customalert2.js. Librería personalizada que nos ayudará tan sólo llamando a métodos, a crear ventanas de alerta sin necesidad de tener que replicar constantemente el objeto de sweetalert. Esto facilita la **abstracción** por parte del programador.
