@@ -13,4 +13,4 @@ El código que aquí se presenta pretende ayudar a crear ventanas de alerta util
 > * crearAlert2(configuracionUsuario);
 ### mensajeSuccess(texto, configuracionUsuario)
 Este método nos mostrará un mensaje con el símbolo de correcto. Para ello le pasaremos el *texto* que queremos que nos muestre y si queremos añadir más opciones rellenaremos un objeto *configuracionUsuario*, que explicaremos más adelante.
-![mensajeSuccess](./imagenes/MensajeSuccess.PNG)
+>>>>>![mensajeSuccess](./imagenes/MensajeSuccess.PNG)
