@@ -5,3 +5,9 @@ El código que aquí se presenta pretende ayudar a crear ventanas de alerta util
 1. Tienes que importar estos dos ficheros a tu proyecto:
 > * sweetalert2.min. Librería estandar sobre la que nos vamos a apoyar.
 > * customalert2.js. Librería personalizada que nos ayudará tan sólo llamando a métodos, a crear ventanas de alerta sin necesidad de tener que replicar constantemente el objeto de sweetalert. Esto facilita la **abstracción** por parte del programador.
+2. Ya puedes utilizar los métodos creados para facilitar la abstracción:
+> * mensajeSuccess(texto, configuracionUsuario);
+> * mensajeError(texto, configuracionUsuario);
+> * mensajeInfor(texto, configuracionUsuario);
+> * mensajeWarning(texto, configuracionUsuario);
+> * crearAlert2(configuracionUsuario);
