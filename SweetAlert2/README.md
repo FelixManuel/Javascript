@@ -23,3 +23,8 @@ Este método nos mostrará un mensaje con el símbolo de información. Para ello
 ### mensajeWarning(texto, configuracionUsuario)
 Este método nos mostrará un mensaje con el símbolo de advertencia. Para ello le pasaremos el *texto* que queremos que nos muestre y si queremos añadir más opciones rellenaremos un objeto *configuracionUsuario*, que explicaremos más adelante.<br/>
 ![mensajeAdvertencia](./imagenes/MensajeWarning.PNG)
+### crearAlert2(configuracionUsuario)
+Este método nos permitirá crear cualquier tipo de mensaje incluido los anteriormente citados. Para ellos le pasaremos un objeto *configuracionUsuario*, que explicaremos en el siguiente punto.<br/>
+# Configuracion Usuario
+*configuracionUsuario* es un objeto que permite amoldar la ventana de alerta a gusto del programador. En función de lo que quiera mostrar, tendrá que añadir parámetros a dicho objeto(**solamente aquellos que se necesiten**):
+> *  
