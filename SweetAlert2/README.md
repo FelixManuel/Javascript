@@ -38,6 +38,6 @@ Este método nos permitirá crear cualquier tipo de mensaje incluido los anterio
 > * **texto**: Este parámetro añade el cuerpo al mensaje de alerta.<br/>
 > **Ejemplo**: {'texto':'Se ha producido un fallo en el proceso.'}.
 > * **textoHtml**: Este parámetro añade el cuerpo al mensaje de alerta. La diferencia con respecto al anterior parámetro es que el texto que se inserte, acepta parámetros en formato html.<br/>
-> **Ejemplo**: {'textoHtml':'\`<strong>\`Esto es importante\`</strong>\`'}.
+> **Ejemplo**: {'textoHtml':'\<strong>Esto es importante\</strong>'}.
 > * **textoPie**: Este parámetro añade un pie al mensaje de alerta.<br/>
 > **Ejemplo**: {'textoPie':'Contacte con su administrador.'}.
