@@ -12,14 +12,14 @@ El código que aquí se presenta pretende ayudar a crear ventanas de alerta util
 > * mensajeWarning(texto, configuracionUsuario);
 > * crearAlert2(configuracionUsuario);
 ### mensajeSuccess(texto, configuracionUsuario)
-Este método nos mostrará un mensaje con el símbolo de correcto. Para ello le pasaremos el *texto* que queremos que nos muestre y si queremos añadir más opciones rellenaremos un objeto *configuracionUsuario*, que explicaremos más adelante.
+Este método nos mostrará un mensaje con el símbolo de correcto. Para ello le pasaremos el *texto* que queremos que nos muestre y si queremos añadir más opciones rellenaremos un objeto *configuracionUsuario*, que explicaremos más adelante.<br/>
 ![mensajeSuccess](./imagenes/MensajeSuccess.PNG)
 ### mensajeError(texto, configuracionUsuario)
-Este método nos mostrará un mensaje con el símbolo de error. Para ello le pasaremos el *texto* que queremos que nos muestre y si queremos añadir más opciones rellenaremos un objeto *configuracionUsuario*, que explicaremos más adelante.
+Este método nos mostrará un mensaje con el símbolo de error. Para ello le pasaremos el *texto* que queremos que nos muestre y si queremos añadir más opciones rellenaremos un objeto *configuracionUsuario*, que explicaremos más adelante.<br/>
 ![mensajeError](./imagenes/MensajeError.PNG)
 ### mensajeInfor(texto, configuracionUsuario)
-Este método nos mostrará un mensaje con el símbolo de información. Para ello le pasaremos el *texto* que queremos que nos muestre y si queremos añadir más opciones rellenaremos un objeto *configuracionUsuario*, que explicaremos más adelante.
+Este método nos mostrará un mensaje con el símbolo de información. Para ello le pasaremos el *texto* que queremos que nos muestre y si queremos añadir más opciones rellenaremos un objeto *configuracionUsuario*, que explicaremos más adelante.<br/>
 ![mensajeInformacion](./imagenes/MensajeInfor.PNG)
 ### mensajeWarning(texto, configuracionUsuario)
-Este método nos mostrará un mensaje con el símbolo de advertencia. Para ello le pasaremos el *texto* que queremos que nos muestre y si queremos añadir más opciones rellenaremos un objeto *configuracionUsuario*, que explicaremos más adelante.
+Este método nos mostrará un mensaje con el símbolo de advertencia. Para ello le pasaremos el *texto* que queremos que nos muestre y si queremos añadir más opciones rellenaremos un objeto *configuracionUsuario*, que explicaremos más adelante.<br/>
 ![mensajeAdvertencia](./imagenes/MensajeWarning.PNG)
