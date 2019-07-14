@@ -10,8 +10,18 @@ function mensajeError(texto, configuracionUsuario){
 function mensajeInfor(texto, configuracionUsuario){
 		mensajeTipo(texto, 'info', configuracionUsuario);
 }
+
 function mensajeWarning(texto, configuracionUsuario){
 		mensajeTipo(texto, 'warning', configuracionUsuario);
+}
+
+function mensajeConfirmarCancelar(texto, icono, funcionConfirmar, funcionCancelar, configuracionUsuario){
+		var configuracion = configuracionUsuario? configuracionUsuario : {};
+		configuracion.icono            = icono            || "";
+		configuracion.textoHtml        = texto            || "";
+		configuracion.funcionConfirmar = funcionConfirmar || "";
+		configuracion.funcionCancelar  = funcionCancelar  || "";
+		crearAlert2(configuracion);
 }
 
 function crearAlert2(configuracionUsuario){
@@ -120,11 +130,12 @@ function configuracionBotones(configuracion, configuracionUsuario){
     configuracion.cancelButtonText  = configuracionUsuario.textoBotonCancelar    || "Cancelar";
     configuracion.reverseButtons    = ('revertirBotones' in configuracionUsuario) ? configuracionUsuario.revertirBotones : true;
     
-    configuracion.confirmButtonColor = configuracionUsuario.colorBotonConfirmar || "#00bfff ";
+    configuracion.confirmButtonColor = configuracionUsuario.colorBotonConfirmar || "#00bfff";
     configuracion.cancelButtonColor  = configuracionUsuario.colorBotonCancelar  || "#c23b22";
 
-    /*Con sólo insertar, por parte del usuario, el texto del botón cancelar, este se activará sin necesidad de tener que indicarlo también*/
-    if(configuracionUsuario.textoBotonCancelar){
+    /*Con sólo insertar, por parte del usuario, el texto del botón cancelar o la funcion cancelar, 
+		  este se activará sin necesidad de tener que indicarlo también*/
+    if(configuracionUsuario.textoBotonCancelar || configuracionUsuario.funcionCancelar){
         configuracion.showCancelButton = true;
     }
 }
