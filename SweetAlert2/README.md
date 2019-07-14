@@ -28,7 +28,7 @@ Este método nos permitirá crear cualquier tipo de mensaje incluido los anterio
 # Configuracion Usuario
 *configuracionUsuario* es un objeto que permite amoldar la ventana de alerta a gusto del programador. En función de lo que quiera mostrar, tendrá que añadir parámetros a dicho objeto(**solamente aquellos que se necesiten**):
 > * **icono**: Este parámetro indica que icono lleva el mensaje de alerta. Los valores que **solamente** puede tomar son: 
-> 1.*success*: En caso de que queramos mostrar un mensaje que es satisfactorio.
-> 2.*error*: En caso de que queramos mostrar un mensaje que es erroneo.
-> 3.*info*: En caso de que queramos mostrar un mensaje que es informativo.
-> 4.*warning*: En caso de que queramos mostrar un mensaje que es de advertencia.
+> 1. *success*: En caso de que queramos mostrar un mensaje que es satisfactorio.
+> 2. *error*: En caso de que queramos mostrar un mensaje que es erroneo.
+> 3. *info*: En caso de que queramos mostrar un mensaje que es informativo.
+> 4. *warning*: En caso de que queramos mostrar un mensaje que es de advertencia.
