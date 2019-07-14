@@ -17,3 +17,9 @@ Este método nos mostrará un mensaje con el símbolo de correcto. Para ello le 
 ### mensajeError(texto, configuracionUsuario)
 Este método nos mostrará un mensaje con el símbolo de error. Para ello le pasaremos el *texto* que queremos que nos muestre y si queremos añadir más opciones rellenaremos un objeto *configuracionUsuario*, que explicaremos más adelante.
 ![mensajeError](./imagenes/MensajeError.PNG)
+### mensajeInfor(texto, configuracionUsuario)
+Este método nos mostrará un mensaje con el símbolo de información. Para ello le pasaremos el *texto* que queremos que nos muestre y si queremos añadir más opciones rellenaremos un objeto *configuracionUsuario*, que explicaremos más adelante.
+![mensajeInformacion](./imagenes/MensajeInfor.PNG)
+### mensajeWarning(texto, configuracionUsuario)
+Este método nos mostrará un mensaje con el símbolo de advertencia. Para ello le pasaremos el *texto* que queremos que nos muestre y si queremos añadir más opciones rellenaremos un objeto *configuracionUsuario*, que explicaremos más adelante.
+![mensajeAdvertencia](./imagenes/MensajeWarning.PNG)
