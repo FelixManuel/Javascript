@@ -31,9 +31,13 @@ Este método nos permitirá crear cualquier tipo de mensaje incluido los anterio
 > 1. *success*: En caso de que queramos mostrar un mensaje que es satisfactorio.
 > 2. *error*: En caso de que queramos mostrar un mensaje que es erroneo.
 > 3. *info*: En caso de que queramos mostrar un mensaje que es informativo.
-> 4. *warning*: En caso de que queramos mostrar un mensaje que es de advertencia.
+> 4. *warning*: En caso de que queramos mostrar un mensaje que es de advertencia.<br/>
 > **Ejemplo**: {'icono':'success'}.
-> * **titulo**: Este parámetro añade un título al mensaje de alerta.
+> * **titulo**: Este parámetro añade un título al mensaje de alerta.<br/>
 > **Ejemplo**: {'titulo':'Buen Trabajo'}.
-> * **texto**: Este parámetro añade el cuerpo al mensaje de alerta.
-> **Ejemplo**: {'texto': 'Se ha producido un fallo en el proceso. Contacte con su administrador'}.
+> * **texto**: Este parámetro añade el cuerpo al mensaje de alerta.<br/>
+> **Ejemplo**: {'texto':'Se ha producido un fallo en el proceso.'}.
+> * **textoHtml**: Este parámetro añade el cuerpo al mensaje de alerta. La diferencia con respecto al anterior parámetro es que el texto que se inserte, acepta parámetros en formato html.<br/>
+> **Ejemplo**: {'textoHtml':'<strong>Esto es importante</strong>'}.
+> * **textoPie**: Este parámetro añade un pie al mensaje de alerta.
+> **Ejemplo**: {'textoPie':'Contacte con su administrador.'}.
