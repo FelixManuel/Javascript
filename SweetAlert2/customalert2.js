@@ -15,9 +15,9 @@ function mensajeWarning(texto, configuracionUsuario){
 		mensajeTipo(texto, 'warning', configuracionUsuario);
 }
 
-function mensajeConfirmarCancelar(texto, icono, funcionConfirmar, funcionCancelar, configuracionUsuario){
+function mensajeConfirmarCancelar(texto, funcionConfirmar, funcionCancelar, configuracionUsuario){
 		var configuracion = configuracionUsuario? configuracionUsuario : {};
-		configuracion.icono            = icono            || "";
+		configuracion.icono            = 'warning';
 		configuracion.textoHtml        = texto            || "";
 		configuracion.funcionConfirmar = funcionConfirmar || "";
 		configuracion.funcionCancelar  = funcionCancelar  || "";
