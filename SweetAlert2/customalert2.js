@@ -135,7 +135,7 @@ function configuracionBotones(configuracion, configuracionUsuario){
 
     /*Con sólo insertar, por parte del usuario, el texto del botón cancelar o la funcion cancelar, 
 		  este se activará sin necesidad de tener que indicarlo también*/
-    if(configuracionUsuario.textoBotonCancelar || configuracionUsuario.funcionCancelar){
+    if(configuracionUsuario.textoBotonCancelar || configuracionUsuario.funcionCancelar || configuracionUsuario.funcionConfirmar){
         configuracion.showCancelButton = true;
     }
 }
